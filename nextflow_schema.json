@@ -63,28 +63,6 @@
                 }
             }
         },
-        "fastp_specific_options": {
-            "title": "fastp specific options",
-            "type": "object",
-            "description": "",
-            "default": "",
-            "properties": {
-                "adapter": {
-                    "type": "string",
-                    "default": null,
-                    "fa_icon": "fas fa-dna"
-                },
-                "save_trimmed_fail": {
-                    "type": "boolean",
-                    "fa_icon": "fas fa-save"
-                },
-                "save_merged": {
-                    "type": "boolean",
-                    "fa_icon": "fas fa-save"
-                }
-            },
-            "fa_icon": "fas fa-cut"
-        },
         "ensemblvep_specific_options": {
             "title": "ensemblVEP specific options",
             "type": "object",
@@ -348,9 +326,6 @@
     "allOf": [
         {
             "$ref": "#/definitions/input_output_options"
-        },
-        {
-            "$ref": "#/definitions/fastp_specific_options"
         },
         {
             "$ref": "#/definitions/institutional_config_options"
