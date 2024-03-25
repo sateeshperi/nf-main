@@ -321,9 +321,6 @@
             "$ref": "#/definitions/input_output_options"
         },
         {
-            "$ref": "#/definitions/fastp_specific_options"
-        },
-        {
             "$ref": "#/definitions/institutional_config_options"
         },
         {
